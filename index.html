@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 9]><html class="ie"><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Donovan Brown's portfolio</title>
+		
+		<!-- Viewport meta tag to prevent iPhone from scaling our page -->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="./css/bootstrap-responsive.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		
+		<!-- Normalize hide address bar for iOS and Android -->
+		<script src="./js/hideaddressbar.js"></script>
+		
+		<!-- Add media query support for IE8 and under. Must place media queries in external stylesheet -->
+		<script src="./js/respond.min.js"></script>
+		
+		<!-- Using picturefill to load conditional images and matchmedia to provide support for IE8 and below + older browsers -->
+		<script src="./js/picturefill.js"></script>
+		<script src="./js/matchmedia.js"></script>
+	
+		
+		<!--[if lt IE 9]>
+		<script src="./js/html5.js"></script>
+		<![endif]-->
+		
+		<!--[if lt IE 9]>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+		<![endif]-->
+		
+		<!--[if IE 8]>
+		<script src="./js/checkbox.js"></script>
+		<![endif]-->
+		
+		<!--[if IE 6]>
+		<script src="./js/selectivizr-min.js"></script>
+		<![endif]-->
+
+	</head>
+
+	<body lang="en">
+		<div id="container-nav">
+			<section id="nav" class="group wrapper">
+				<h3>Donovan Brown</h3>
+		        <!-- Checkbox Hack markup -->
+		        <input type="checkbox" id="toggle" />
+		        <label for="toggle" onclick>Menu</label>
+		        <!-- /Checkbox Hack markup -->
+		        <nav>
+		            <ul>
+		                <li><a href="#portfolio">Portfolio</a></li>
+		                <li><a href="#illustrations">Illustrations</a></li>
+		                <li><a href="resume/resume.html" target="blank">Resume</a></li>
+						<li><a href="https://www.linkedin.com/pub/donovan-brown/82/605/288" target="blank">LinkedIn Profile</a></li> <!-- No destination yet -->
+		                <li><a href="mailto:dess5000@gmail.com?Subject=Hello%20again" target="blank">Email</a></li>
+		            </ul>
+		        </nav>
+				
+			
+			</section>
+		</div>
+		<div id="container-header">
+			<header id="masthead" class="wrapper">
+
+				
+				<h1>Hi, I'm Donovan</h1>
+
+				<h2>An aspiring web developer, app developer and Illustrator based in Michigan</h2>
+			</header>
+		</div>
+		<div id="container-content">
+			<article id="content">
+			
+			<!-- Classes removed / #portfolio -->
+			<!-- Element(s)/Classes added from Bootstrap's Scaffolding -->
+			
+				<section id="portfolio" class="container-fluid">
+				
+                    <header>
+                        <h3>My Portfolio</h3>
+                        <p>Some of the things I've been working on lately</p>
+                    </header>
+                    
+                    <div class="row-fluid">
+                    
+                        <article class="span4">
+                            <h4>37 signals clone page</h4>
+                                <a href="http://dcbrown.github.io/37signalsrepo">
+                                    <figure>
+                                        <img src="./img/37sig.png"/>
+										<P class="text">Skills used: HTML, CSS, Javascript, jQurey</P>
+									</figure> 
+                                </a>
+                        </article>
+
+                        <article class="span4">
+                            <h4>Random number game App</h4>
+                                <a href="http://dcbrown.github.io/NumberGuess/">
+                                    <figure>
+                                        <img src="./img/number_guess.png"/>
+										<P class="text">Skills used: HTML, CSS, Javascipt</P>
+									</figure>
+                                </a>
+                        </article>
+    
+                        <article class="span4">
+                            <h4>Shopping list App</h4>
+                                <a href="http://dcbrown.github.io/ShopApp/">
+                                    <figure>
+                                        <img src="./img/shop_list.png"/>
+										<P class="text">Skills used: HTML, CSS, Javascript</P>
+									</figure>
+                                </a>
+                        </article>
+                        
+                        </div>
+                        
+                        <div class="row-fluid">
+                        
+                        <article class="span4">
+                            <h4>Video game based quiz App</h4>
+                                <a href="http://dcbrown.github.io/QuizApp/">
+                                    <figure>
+                                        <img src="./img/quiz_game.png"/>
+										<P class="text">Skills used: HTML, CSS, Javascript</P>	
+                                    </figure> 
+                                </a>
+                        </article>
+
+                        <article class="span4">
+                            <h4>Vsquad animation promo</h4>
+                                <a href="http://scratch.mit.edu/projects/11587570/">
+                                    <figure>
+                                        <img src="./img/vsquad.png" />
+										<P class="text">Skills used: Scratch.mit</P>
+                                    </figure>
+                                </a>
+                        </article>
+    
+           
+                
+                    </div>
+                    
+                </section>
+				
+				<section id="resume" class="group">
+			
+						<header class="wrapper">
+							<section id="illustrations">
+							<h3>My Illustrations</h3>
+							<p>The tools I use to create my illustrations are Photoshop and a Wacom pen tablet</p>
+						</header>
+				<!--START JUICEBOX EMBED-->
+				<script src="jbcore/juicebox.js"></script>
+				<script>
+				new juicebox({
+				containerId : "juicebox-container",
+				galleryWidth: "100%",
+				galleryHeight: "80%",
+				backgroundColor: "rgba(255,255,255,1)"
+				});
+				</script>
+				<div id="juicebox-container"></div>
+				<a id="2"><!--END JUICEBOX EMBED-->
+	
+				</div>
+		<div id="container-footer">        
+			<footer id="colophon" class="wrapper">
+				<p>Donovan C. Brown</p>
+			</footer>
+		</div>	
+	</body>
+</html>
