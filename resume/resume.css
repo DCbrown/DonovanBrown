@@ -121,9 +121,11 @@ a {
 .concentration{ font-weight:normal; font-style:italic; }
 .org{
     font-size: 1.063em;
+
 }
 .time-frame{
     font-size: 1.063em;
+	
 }
 .description{
     color:#5b5b5b;
@@ -190,11 +192,12 @@ a {
 		right:0;
 		top:0;
 	}
-.blur{text-align: center;}
+
 }
 
 @media only screen and (min-width: 45em) {
-    .pos-a, .pos-b{float:left;}
+    body {font-size: 107.692307692308%;}
+	.pos-a, .pos-b{float:left;}
     .pos-a{width:67.5%; margin-right:5%;}
     .pos-b{width:27.5%;}
 	
