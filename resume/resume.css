@@ -196,7 +196,6 @@ a {
 }
 
 @media only screen and (min-width: 45em) {
-    body {font-size: 107.692307692308%;}
 	.pos-a, .pos-b{float:left;}
     .pos-a{width:67.5%; margin-right:5%;}
     .pos-b{width:27.5%;}
