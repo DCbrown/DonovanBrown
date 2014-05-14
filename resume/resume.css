@@ -162,7 +162,7 @@ a {
    
    ========================================================================== */
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 50em) {
     .header-container .pos-a{ float:left; margin-right:5%; width:67.5%; }
     .header-container .pos-b{ float:right; width:27.5%; }
     
@@ -195,7 +195,7 @@ a {
 
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 50em) {
 	.pos-a, .pos-b{float:left;}
     .pos-a{width:67.5%; margin-right:5%;}
     .pos-b{width:27.5%;}
