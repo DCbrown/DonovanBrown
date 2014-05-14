@@ -6,6 +6,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*google fonts*/
 @font-face {
   font-family: 'Six Caps';
+  font-size: 1.063em;
+  line-height: 1.223;
+  margin: .612em 0;
   font-style: normal;
   font-weight: 400;
   src: local('Six Caps'), local('SixCaps'), url(https://themes.googleusercontent.com/static/fonts/sixcaps/v4/tMrhQDUBAHnnGuM33-yobPesZW2xOQ-xsNqO47m55DA.woff) format('woff');
@@ -13,11 +16,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 @font-face {
   font-family: 'Source Sans Pro';
   font-style: normal;
+  font-size: 1.063em;
+  line-height: 1.223;
+  margin: .612em 0;
+  
+  
   font-weight: 700;
   src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://themes.googleusercontent.com/static/fonts/sourcesanspro/v4/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format('woff');
 }
 @font-face {
   font-family: 'Source Sans Pro';
+  font-size: 1.063em;
+  line-height: 1.223;
+  margin: .612em 0;
+  
   font-style: normal;
   font-weight: 400;
   src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(https://themes.googleusercontent.com/static/fonts/sourcesanspro/v4/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format('woff');
