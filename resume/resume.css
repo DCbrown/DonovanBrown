@@ -138,8 +138,9 @@ a {
 .lvl-c{ font-size:1.2em; }
 .lvl-d{ font-size:1.1em; }
 
-.social-links{
+.icon{
 	display:inline-block;
+	padding:0 .55em ;
 }
 
 
@@ -151,9 +152,7 @@ a {
     display:block;
 }
 
-.download-link{
-	text-align:right;
-}
+
 
 /* ==========================================================================
    Media Queries
