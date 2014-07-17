@@ -2,71 +2,78 @@
 
 <juiceboxgallery 
 
-	backgroundColor="rgba(255,255,255,1)"
+	backgroundColor="rgba(153,153,153,1)"
+	thumbFrameColor="rgba(255,255,255,.5)"
+	textColor="rgba(255,255,255,5)"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+	showExpandButton="true"
+	showOpenButton="true"
+	indexPageName="indexx.html"
 
 >
   <image imageURL="images/001.jpg"
 	thumbURL="thumbs/001.jpg"
 	linkURL="images/001.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\001.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\001.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A commission for a good buddy of mine, he wanted picture of himself one half good side and one half evil side.]]></caption>
+    <caption><![CDATA[A commission for a good buddy of mines who wanted a picture of himself one side good one side evil. ]]></caption>
   </image>
   <image imageURL="images/002.jpg"
 	thumbURL="thumbs/002.jpg"
 	linkURL="images/002.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\002.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\002.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A commission of my buddy in title-like 2D video game graphic form.]]></caption>
+    <caption><![CDATA[A commission for my friend buddy in a title-like 2D video game form.]]></caption>
   </image>
   <image imageURL="images/003.jpg"
 	thumbURL="thumbs/003.jpg"
 	linkURL="images/003.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\003.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\003.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A picture of me in a bizarre gothic fantasy style.]]></caption>
+    <caption><![CDATA[An illustration of me in a bizarre gothic inspired fantasy style.]]></caption>
   </image>
   <image imageURL="images/004.jpg"
 	thumbURL="thumbs/004.jpg"
 	linkURL="images/004.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\004.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\004.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A picture for one of my best friends who is avid bunny lover.]]></caption>
+    <caption><![CDATA[A picture for my best friend who is a avid bunny lover.]]></caption>
   </image>
   <image imageURL="images/005.jpg"
 	thumbURL="thumbs/005.jpg"
 	linkURL="images/005.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\005.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\005.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A profile picture that inspired the "Marc Destroyer of worlds pic".]]></caption>
+    <caption><![CDATA[A profile picture that inspired the “Marc destroyer of worlds” picture.]]></caption>
   </image>
   <image imageURL="images/006.jpg"
 	thumbURL="thumbs/006.jpg"
 	linkURL="images/006.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\006.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\006.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[A commission for my friend who is a Burlesque Dancer.]]></caption>
+    <caption><![CDATA[A commission of my friend who is a burlesques dancer.]]></caption>
   </image>
   <image imageURL="images/007.jpg"
 	thumbURL="thumbs/007.jpg"
 	linkURL="images/007.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\007.jpg">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\007.jpg">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[Fan art piece of my favorite Disney movie of all time. (c) Disney.]]></caption>
+    <caption><![CDATA[A fan art piece of my favorite Disney movie of all time Wreck-it-Ralph.]]></caption>
   </image>
-  <image imageURL="images/008.png"
+  <image imageURL="images/008.jpg"
 	thumbURL="thumbs/008.jpg"
-	linkURL="images/008.png"
+	linkURL="images/008.jpg"
 	linkTarget="_blank"
-	sourcePath="C:\Users\donovan\Dropbox\Apps\KISSr\donovanbrown.kissr.com\images\008.png">
+	sourcePath="C:\Users\donovan\Desktop\DonovanBrown\images\008.png">
     <title><![CDATA[]]></title>
-    <caption><![CDATA[Mascot version of myself from my first draft website.]]></caption>
+    <caption><![CDATA[A Mascot version of myself for my first draft website. ]]></caption>
   </image>
 </juiceboxgallery>

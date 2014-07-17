@@ -1,7 +1,7 @@
 /**
- * Juicebox 1.3.3 Classic Theme
+ * Juicebox 1.4.1 Classic Theme
  *
- * Copyright (c) 2013 Juicebox Inc. All rights reserved.
+ * Copyright (c) 2014 Juicebox Inc. All rights reserved.
  * http://www.juicebox.net
  *
  * BY USING THIS SOFTWARE, YOU AGREE TO THE JUICEBOX TERMS OF USE
@@ -9,21 +9,47 @@
  *
  * Support and Documentation: http://www.juicebox.net/support
  *
- * Build Time: 10/14/2013 09:23:33 PM
+ * Build Time: 05/27/2014 03:50:45 PM
  */
 
 .juicebox-gallery
 {
 	outline: none;
 }
+
 .juicebox-gallery h1, .juicebox-gallery h2, .juicebox-gallery h3, .juicebox-gallery h4,
-.juicebox-gallery div, .juicebox-gallery p, .juicebox-gallery span{
+.juicebox-gallery div, .juicebox-gallery span{
 	border-spacing: 0;
 	padding: 0;
 	margin: 0;
 	border: none 0;
 	vertical-align: middle;	/*don't make this "!important", or the next "vertical-align: bottom;" will be broken. */
-	line-height: 1;
+	line-height: 1.1;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	font-family: 'juicebox';
+}
+
+.juicebox-gallery a, .juicebox-gallery u {
+	margin: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.juicebox-gallery .jb-idx-thb-list-page-number,
+.juicebox-gallery .jb-area-large-mode-title,
+.juicebox-gallery .jb-idx-title,
+.juicebox-gallery .jb-idx-title textarea,
+.juicebox-gallery .jb-area-caption div,
+.juicebox-gallery .jb-area-caption p,
+.juicebox-gallery .jb-splash h3,
+.juicebox-gallery .jb-splash p,
+.juicebox-gallery .jb-splash a,
+.juicebox-gallery .jb-go-back a,
+.juicebox-gallery .jb-status-message{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .juicebox-gallery table, .juicebox-gallery tr, .juicebox-gallery td, .juicebox-gallery tbody{
@@ -76,6 +102,11 @@
 	border-radius: 0;
 }
 
+.juicebox-gallery textarea {
+    box-shadow: none;
+    transition: none;
+}
+
 /*#162 otherwise there will be a white border around it in IE9*/
 .jb-go-back img
 {
@@ -121,11 +152,17 @@ div.jb-idx-thb-list {
 	margin: 5px;
 	background-color: Transparent;
 }
+
 .jb-idx-thb-list .jb-idx-thumb {
 	float: left;
-	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.5);
 	position: relative;
 }
+
+div.jb-idx-thb-list .jb-thm-thumb-dot {
+    background-color: transparent;
+}
+
 .jb-idx-thb-list .jb-idx-thumb img {
 	border: 0px solid transparent;
 	cursor: pointer;
@@ -210,7 +247,7 @@ div.jb-area-caption
 	vertical-align: top;
 }
 .jb-cap-frame .jb-caption {
-	background-color: rgba(0, 0, 0, .5);
+	background-color: rgba(0, 0, 0, .3);
 	color: white;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
@@ -227,7 +264,7 @@ div.jb-area-caption
 	cursor:default;
 }
 
-.jb-caption p 
+.jb-caption p
 {
 	margin-bottom: 0 !important;
 	margin-right: 72px;	/* equal to "width" in .jb-cap-frame .jbac-number; margin-top is set in code in order to hide the top margin when there is no desc */
@@ -291,10 +328,14 @@ div.jb-bb-bar {
 	float: left;
 	background-color: rgba(0, 0, 0, .5);
 	padding: 0 4px 0 4px;
-	margin: 0 0 0 10px;
+	margin: 0 10px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
+}
+
+.jb-classifier-thumb-area div.jb-bb-bar {
+	margin: 0 0 0 2px;
 }
 
 /*BUTTONS*/
@@ -375,6 +416,7 @@ div.jb-bb-splitter
 {
 	padding: 4px 2px 0 2px;
 	text-align: center;
+    line-height: 1;
 }
 
 .jb-flag-msie .jb-navigation .jbn-nav-button-icon
@@ -537,14 +579,14 @@ a.jb-go-back-icon
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.3);
 	height: auto;
 	width:100%;
 }
 .jb-splash-info p {
 	color: white;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 	line-height: 25px;
 	width:auto;
 }
@@ -558,20 +600,22 @@ p.jb-splash-desc
 p.jb-splash-cnt
 {
 	padding: 0 20px 20px 20px;
-	font-weight: bold;
+	font-weight: normal;
 }
 /* Splash page title, add important in order to avoid collisions with Word Press*/
 .jb-splash-info h3 {
 	color: white !important;
 	padding: 20px !important;
 	margin: 0 !important;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5) !important;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
 	font-size: 36px !important;
+	font-weight: normal !important;;
+	letter-spacing: 1px !important;;
 }
 /* Splash 'View Gallery' Text*/
 a.jb-splash-view-glry {
-	color: White;
-	font-size: 22px;
+	color: white;
+	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -588,6 +632,7 @@ div.jb-splash
 	position:relative;
 	margin:0;
 	padding:0;
+    cursor: pointer;
 }
 
 .jb-idx-thumbnail-container .jb-splash-holder img
@@ -612,7 +657,7 @@ div.jb-splash
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3), 0 0 5px rgba(0,0,0,0.2);
 	text-align:center;
 }
 
@@ -628,14 +673,14 @@ div.jb-splash
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 17px;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.5), 0 0 5px rgba(0,0,0,0.2);
-	font-weight: bold;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.3), 0 0 5px rgba(0,0,0,0.2);
+	font-weight: normal;
 	text-align:center;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	background-color: rgba(0, 0, 0, .5);
-
+    overflow: hidden;
 }
 
 /* gallery flag */
@@ -675,7 +720,6 @@ div.jb-status-loading {
 	font-family: 'juicebox';
 	src:url('fonts/juicebox.eot');
 	src:url('fonts/juicebox.eot?#iefix') format('embedded-opentype'),
-		url('fonts/juicebox.svg#juicebox') format('svg'),
 		url('fonts/juicebox.woff') format('woff'),
 		url('fonts/juicebox.ttf') format('truetype');
 	font-weight: normal;
@@ -686,7 +730,7 @@ div.jb-status-loading {
 
 div.jb-bb-button:before, .jb-thm-thumb-dot, a.jb-go-back-icon
 {
-	font-family: 'juicebox';
+	font-family: 'juicebox' !important;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
