@@ -413,7 +413,8 @@ section footer {
 	figure {
 	    position: relative;
 	}
-
+	
+	
 	figure img,
 	figure object,
 	figure embed,
@@ -421,7 +422,7 @@ section footer {
 	    display: block;
 	    max-width: 100%; 
 	}
-
+	
 	img {
 	    border: 0;
 	    -ms-interpolation-mode: bicubic;
@@ -444,11 +445,15 @@ section footer {
 		background-size: cover;
 		padding: 10% 0;
 	}
-
+	
+	
     #portfolio figure {
         
     }
 
+	
+	
+	
 }
 		
 /* ******************************************
@@ -460,7 +465,6 @@ section footer {
 	    body {
 	        font-size: 107.692307692308%;
 	        }
-
 		
 		#masthead {
 			max-width:40em;
@@ -530,7 +534,7 @@ section footer {
 		height: auto;
 	}
 	
-	img {
+	reveal-modal,img {
 		width:2in;
 	}
 	
@@ -564,6 +568,7 @@ section footer {
 
 /* Figures/Images */
 
+
 .ie #portfolio figure {
     width: 100%;
     box-sizing: border-box;
@@ -574,6 +579,7 @@ section footer {
 .ie #portfolio figure {
     *width: auto;
     }
+
     
 /* Navigation */
 
